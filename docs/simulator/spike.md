@@ -1,11 +1,4 @@
----
-layout: doc
-title: 杂谈
-editLink: true
-footer: true
-lastUpdated: true
-outline: [2, 4]
----
+
 
 
 ## 下载riscv64-unknown-elf-gnu
