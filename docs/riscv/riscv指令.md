@@ -124,3 +124,42 @@ layout: doc
 |-|-|-|-|-|-|
 |fence|||000|0001111|这个指令信息写的不全|
 |fence.i|||001|0001111|这个指令信息写的不全|
+
+
+
+---
+title: rv64m
+editLink: true
+layout: doc
+---
+
+
+## R_TYPE
+
+||用户自定义类型|func7|func3|opcode|指令效果|
+|-|-|-|-|-|-|
+|mul|r_alu_reg|0000001|000|0110011||
+|mulh|r_alu_reg|0000001|001|0110011||
+|mulhsu|r_alu_reg|0000001|010|0110011||
+|mulhu|r_alu_reg|0000001|011|0110011||
+|div|r_alu_reg|0000001|100|0110011||
+|divu|r_alu_reg|0000001|101|0110011||
+|rem|r_alu_reg|0000001|110|0110011||
+|remu|r_alu_reg|0000001|111|0110011||
+|||||||
+|mulw|r_alu_reg_w|0000001|000|0111011||
+|divw|r_alu_reg_w|0000001|100|0111011||
+|divuw|r_alu_reg_w|0000001|101|0111011||
+|remw|r_alu_reg_w|0000001|110|0111011||
+|remuw|r_alu_reg_w|0000001|111|0111011||
+
+
+# 指令解读
+
+1. mul,         就是默认signed * signed
+2. mulh,        就是默认signed * signed
+3. mulhsu,      最后结尾的su，就是表示signed * unsigned
+4. mulsu，      最后结尾的是u, 就是表示unsigned * unsigned
+wire [127:0]    ext_mul_result = {   signed_ext_alu_src1 *   signed_ext_alu_src2}; //默认是sign * signed
+wire [127:0] su_ext_mul_result = {   signed_ext_alu_src1 * unsigned_ext_alu_src2};
+wire [127:0]  u_ext_mul_result = { unsigned_ext_alu_src1 * unsigned_ext_alu_src2 };
