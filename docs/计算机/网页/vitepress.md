@@ -5,6 +5,15 @@ layout: doc
 ---
 
 
+## 制作网页的工具
+1. vitepress
+2. vurpress
+3. mkdocs
+4. material for mkdocs
+
+1. 网页配置如何搞
+一般网页官方文档的github仓库都是公开的，可以直接到它们的github仓库里面看它们是如何配置的，学习一下就行。
+
 
 ## vitepress的教程及其这个教程UP主的网站
 https://www.bilibili.com/video/BV1xg4y1R74a/?spm_id_from=333.337.search-card.all.click&vd_source=86c038e54178b2c8db06f72a2c1b15da

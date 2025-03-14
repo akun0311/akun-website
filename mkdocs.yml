@@ -2,3 +2,10 @@ site_name: My site
 site_url: https://akun0311.github.io/akun-website/
 theme:
   name: material
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

@@ -1,3 +1,10 @@
+---
+title: modelsim
+---
+
+
+
+
 # modelsim安装
 https://junningwu.haawking.com/tech/2019/12/11/%E5%AE%89%E8%A3%85%E4%B8%80%E4%B8%AA%E5%8F%AF%E7%94%A8%E7%9A%84Linux%E7%89%88%E6%9C%ACModelsim/
 

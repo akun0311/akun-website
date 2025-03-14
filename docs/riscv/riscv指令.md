@@ -1,7 +1,5 @@
 ---
-title: rv64m
-editLink: true
-layout: doc
+title: RISC-V指令信息
 ---
 
 
