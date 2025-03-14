@@ -1,6 +1,3 @@
-
-
-
 ## 下载riscv64-unknown-elf-gnu
 
 ### 1. 从riscv-gnu-toolchain里安装
