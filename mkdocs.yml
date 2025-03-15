@@ -4,18 +4,18 @@ theme:
   name: material
   features:
     - header.autohide
-    - navigation.instant
-    - navigation.tabs
+    # - navigation.instant
+    # - navigation.tabs
 
 
 #导航栏
-nav:
-  - Home: index.md
-  - "408": 
-     - 图: 考研/408/数据结构/图.md
-     - 二叉树: 考研/408/数据结构/二叉树.md
-  - "数学":
-     - 函数极限: 考研/数学/函数极限.md
+# nav:
+#   - Home: index.md
+#   - "408": 
+#      - 图: 考研/408/数据结构/图.md
+#      - 二叉树: 考研/408/数据结构/二叉树.md
+#   - "数学":
+#      - 函数极限: 考研/数学/函数极限.md
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
